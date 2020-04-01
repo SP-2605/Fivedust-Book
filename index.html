@@ -8,20 +8,71 @@
     <title>The Fivedust-Book</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/bbf15990ab.js" crossorigin="anonymous"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md py-4 navbar-light fixed-top">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <img src="images/Logo-circle.png" width="50" height="50" alt="...">
+                <h3 class="d-inline align-middle text-uppercase">The Fivedust</h3>
+            </a>
 
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a href="#authors" class="nav-link">Authors</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- SHOWCASE SECTION -->
+    <section class="" id="showcase">
+        <div class="primary-overlay">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-6 d-none d-lg-block text-center my-auto">
+                        <h2 class="display-4 mt-4 pt-4 text-capitalize">Do What You Dream</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui pariatur
+                            autem reiciendis voluptates quam!</p>
+                        <button class="btn btn-outline-light">Read More</button>
+                    </div>
+
+                    <div class="col-md-6 d-md-block d-flex justify-content-center">
+                        <img src="images/Book-coverpage.jpg" alt="..." class="img-fluid d-md-block cover-page">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>

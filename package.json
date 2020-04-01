@@ -4,8 +4,8 @@
   "description": "Landing page for Fivedust Book",
   "main": "index.js",
   "scripts": {
-    "watch:sass-1":"node-sass sass/bootstrap.scss css/bootstrap.css",
-    "watch:sass-2":"node-sass sass/style.scss css/styles.css",
+    "watch:sass-1":"node-sass sass/bootstrap.scss css/bootstrap.css -w",
+    "watch:sass-2":"node-sass sass/style.scss css/styles.css -w",
     "devserver":"live-server",
     "start":"npm-run-all --parallel devserver watch:sass-1 watch:sass-2",
     "compile:sass-1":"node-sass sass/bootstrap.scss css/bootstrap-compress.css",
