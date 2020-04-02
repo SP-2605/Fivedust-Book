@@ -38,3 +38,10 @@ body {
     color: #dee3e2; }
   #showcase p {
     color: #dee3e2; }
+
+@media only screen and (max-width: 991.98px) {
+  #bookGlimpse .card-title {
+    font-size: 1rem; }
+  #bookGlimpse .card-text {
+    font-size: 15px;
+    line-height: normal; } }
