@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #9e2a51; }
+
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #9e2a51;
+  opacity: 0.9;
+  background-color: #dee3e2; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 1.4rem;
+    font-weight: 600; }
+  .navbar .navbar-brand {
+    font-family: 'Special Elite', cursive; }
+
+#showcase {
+  position: relative;
+  background-image: url(../images/mountains.jpg);
+  min-height: 578px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  #showcase .cover-page {
+    height: 30rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 15px 5px #dee3e2; }
+  #showcase .primary-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #9e2a51;
+    opacity: 0.8;
+    min-height: 578px; }
+  #showcase h2 {
+    color: #dee3e2; }
+  #showcase p {
+    color: #dee3e2; }
+
+#newsletter button {
+  font-family: 'Baloo Da 2', cursive; }
+
+#about h2, #about h5 {
+  font-family: 'Baloo Da 2', cursive; }
+
+#bookGlimpse .card {
+  box-shadow: 0px 0px 8px 2px #9e2a51; }
+
+#bookGlimpse h4 {
+  font-family: 'Baloo Da 2', cursive; }
+
+#authors h3, #authors h6 {
+  color: #9e2a51; }
+
+#authors h2, #authors h3, #authors h6 {
+  font-family: 'Baloo Da 2', cursive; }
+
+#authors .text-description {
+  font-size: 1rem; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .card-body {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  cursor: pointer;
+  color: #343a40; }
+
+#authors .card-body:hover {
+  background-color: #9e2a51;
+  color: #dee3e2;
+  box-shadow: 0px 0px 5px 2px #9e2a51; }
+  #authors .card-body:hover .fab {
+    color: #dee3e2; }
+  #authors .card-body:hover h3, #authors .card-body:hover h6 {
+    color: #dee3e2; }
+
+.book-info {
+  border-bottom: #ddd 5px dotted;
+  width: 50%;
+  margin: auto; }
+
+.accordian-title {
+  cursor: pointer; }
+
+#contact h4 {
+  font-family: 'Baloo Da 2', cursive; }
+
+#contact button {
+  font-family: 'Baloo Da 2', cursive; }
+
+#copyright h6 {
+  font-family: 'Baloo Da 2', cursive; }
+
+@media only screen and (max-width: 767.98px) {
+  #bookGlimpse .card {
+    box-shadow: none; }
+  #authors .author-box {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important; } }
+
+@media only screen and (max-width: 991.98px) {
+  #bookGlimpse .card-title {
+    font-size: 1rem; }
+  #bookGlimpse .card-text {
+    font-size: 15px;
+    line-height: normal; }
+  .book-info {
+    width: 85%; }
+  #authors img {
+    margin-top: -50px;
+    width: 90px !important; }
+  #authors .author-box {
+    margin: 2rem 0rem !important; }
+  #contact img {
+    display: none;
+    visibility: hidden; }
+  #contact h4, #contact p {
+    text-align: center; } }
